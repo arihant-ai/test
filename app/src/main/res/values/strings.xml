@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Logger</string>
+    <string name="settings">Settings</string>
+    <string name="call_logger">Call Logger</string>
+    <string name="odoo_url">Odoo URL</string>
+    <string name="database">Database</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="case_number">Case Number</string>
+    <string name="comments">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="call_info">Call Information</string>
+    <string name="unknown_number">Unknown Number</string>
+    <string name="blocked_number">Blocked Number</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="outgoing_call">Outgoing Call</string>
+</resources>
