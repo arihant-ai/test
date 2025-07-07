@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/et_api_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="API URL" />
+
+        <EditText
+            android:id="@+id/et_odoo_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odoo URL" />
+
+        <EditText
+            android:id="@+id/et_odoo_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odoo DB" />
+
+        <EditText
+            android:id="@+id/et_odoo_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odoo User" />
+
+        <EditText
+            android:id="@+id/et_odoo_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odoo Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_test_connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Connection" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+    </LinearLayout>
+</ScrollView>
