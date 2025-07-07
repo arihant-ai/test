@@ -31,7 +31,7 @@ class CallMonitorService : Service() {
                         } else {
                             val info = OdooClient.fetchCaseInfo(applicationContext, phoneNumber ?: "")
                             info?.let {
-                                CallInfoOverlay.show(applicationContext, phoneNumber!!, "Case: ${'$'}{it["case_no"]} ${'$'}{it["comment"]}")
+                                CallInfoOverlay.show(applicationContext, phoneNumber!!, "Case: ${it["case_no"]} ${it["comment"]}")
                             }
                         }
                     }
